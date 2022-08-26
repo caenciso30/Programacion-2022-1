@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+#include <cstdlib>
 
 int fibonacci(int i) {
     if (i == 2)
@@ -24,6 +24,6 @@ int main(int argc, char *argv[]) {
         }
         i++;        
     } 
-    cout << sum;
+   std::cout << sum << std::endl;
     return 0;
 }
